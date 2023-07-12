@@ -1,6 +1,8 @@
 package next.reflection;
 
-public class Junit3Test {
+import junit.framework.TestCase;
+
+public class Junit3Test extends TestCase {
     public void test1()  {
         System.out.println("Running Test1");
     }
